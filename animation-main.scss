@@ -1,0 +1,301 @@
+@import "./animate.scss";
+@import "./animation-custom.scss";
+.pulse-enter-active {
+    @extend .animated.faster;
+    @extend .ssPulse;
+}
+
+.pulse-leave-active {
+    @extend .animated.faster;
+    @extend .ssPulse;
+}
+
+.shake-enter-active {
+    @extend .animated.faster;
+    @extend .ssShake;
+}
+
+.shake-leave-active {
+    @extend .animated.faster;
+    @extend .ssShake;
+}
+
+.tada-enter-active {
+    @extend .animated.faster;
+    @extend .ssTada;
+}
+
+.tada-leave-active {
+    @extend .animated.faster;
+    @extend .ssTada;
+}
+
+.heartBeat-enter-active {
+    @extend .animated.faster;
+    @extend .ssHeartBeat;
+}
+
+.heartBeat-leave-active {
+    @extend .animated.faster;
+    @extend .ssHeartBeat;
+}
+
+.wobble-enter-active {
+    @extend .animated.faster;
+    @extend .ssWobble;
+}
+
+.wobble-leave-active {
+    @extend .animated.faster;
+    @extend .ssWobble;
+}
+
+.swing-enter-active {
+    @extend .animated.faster;
+    @extend .ssSwing;
+}
+
+.swing-leave-active {
+    @extend .animated.faster;
+    @extend .ssSwing;
+}
+
+.rubberBand-enter-active {
+    @extend .animated.faster;
+    @extend .ssRubberBand;
+}
+
+.rubberBand-leave-active {
+    @extend .animated.faster;
+    @extend .ssRubberBand;
+}
+
+.zoom-enter-active {
+    @extend .animated.faster;
+    @extend .ssZoomIn;
+}
+
+.zoom-leave-active {
+    @extend .animated.faster;
+    @extend .ssZoomOut;
+}
+
+.fade-enter-active {
+    @extend .animated.faster;
+    @extend .ssFadeIn;
+}
+
+.fade-leave-active {
+    @extend .animated.faster;
+    @extend .ssFadeOut;
+}
+
+.fade-left-enter-active {
+    @extend .animated.faster;
+    @extend .ssFadeInLeft;
+}
+
+.fade-left-leave-active {
+    @extend .animated.faster;
+    @extend .ssFadeOutLeft;
+}
+
+.fade-right-enter-active {
+    @extend .animated.faster;
+    @extend .ssFadeInRight;
+}
+
+.fade-right-leave-active {
+    @extend .animated.faster;
+    @extend .ssFadeOutRight;
+}
+
+.fade-up-enter-active {
+    @extend .animated.faster;
+    @extend .ssFadeInUp;
+}
+
+.fade-up-leave-active {
+    @extend .animated.faster;
+    @extend .ssFadeOutDown;
+}
+
+.fade-down-enter-active {
+    @extend .animated.faster;
+    @extend .ssFadeInDown;
+}
+
+.fade-down-leave-active {
+    @extend .animated.faster;
+    @extend .ssFadeOutUp;
+}
+
+.bounce-enter-active {
+    @extend .animated.faster;
+    @extend .ssDounce;
+}
+
+.bounce-leave-active {
+    @extend .animated.faster;
+    @extend .ssDounce;
+}
+
+.bounce-up-enter-active {
+    @extend .animated.faster;
+    @extend .ssDounceInUp;
+}
+
+.bounce-up-leave-active {
+    @extend .animated.faster;
+    @extend .ssDounceOutDown;
+}
+
+.bounce-down-enter-active {
+    @extend .animated.faster;
+    @extend .ssDounceInDown;
+}
+
+.bounce-down-leave-active {
+    @extend .animated.faster;
+    @extend .ssDounceOutUp;
+}
+
+.bounce-left-enter-active {
+    @extend .animated.faster;
+    @extend .ssDounceInLeft;
+}
+
+.bounce-left-leave-active {
+    @extend .animated.faster;
+    @extend .ssDounceOutLeft;
+}
+
+.bounce-right-enter-active {
+    @extend .animated.faster;
+    @extend .ssDounceInRight;
+}
+
+.bounce-right-leave-active {
+    @extend .animated.faster;
+    @extend .ssDounceOutRight;
+}
+
+.flip-x-enter-active {
+    @extend .animated.faster;
+    @extend .ssFlipInX;
+}
+
+.flip-x-leave-active {
+    @extend .animated.faster;
+    @extend .ssFlipOutX;
+}
+
+.flip-y-enter-active {
+    @extend .animated.faster;
+    @extend .ssFlipInY;
+}
+
+.flip-y-leave-active {
+    @extend .animated.faster;
+    @extend .ssFlipOutY;
+}
+
+.light-speed-enter-active {
+    @extend .animated.faster;
+    @extend .ssLightSpeedIn;
+}
+
+.light-speed-leave-active {
+    @extend .animated.faster;
+    @extend .ssLightSpeedOut;
+}
+
+.rotate-in-enter-active {
+    @extend .animated.faster;
+    @extend .ssRotateIn;
+}
+
+.rotate-in-leave-active {
+    @extend .animated.faster;
+    @extend .ssRotateOut;
+}
+
+.rotate-down-left-enter-active {
+    @extend .animated.faster;
+    @extend .ssRotateInDownLeft;
+}
+
+.rotate-down-left-leave-active {
+    @extend .animated.faster;
+    @extend .ssRotateOutUpLeft;
+}
+
+.rotate-up-left-enter-active {
+    @extend .animated.faster;
+    @extend .ssRotateInUpLeft;
+}
+
+.rotate-up-left-leave-active {
+    @extend .animated.faster;
+    @extend .ssRotateOutDownLeft;
+}
+
+.rotate-down-right-enter-active {
+    @extend .animated.faster;
+    @extend .ssRotateInDownRight;
+}
+
+.rotate-down-right-leave-active {
+    @extend .animated.faster;
+    @extend .ssRotateOutUpRight;
+}
+
+.rotate-up-right-enter-active {
+    @extend .animated.faster;
+    @extend .ssRotateInUpRight;
+}
+
+.rotate-up-right-leave-active {
+    @extend .animated.faster;
+    @extend .ssRotateOutDownRight;
+}
+
+.slide-in-up-enter-active {
+    @extend .animated.faster;
+    @extend .ssSlideInUp;
+}
+
+.slide-in-up-leave-active {
+    @extend .animated.faster;
+    @extend .ssSlideOutDown;
+}
+
+.slide-in-down-enter-active {
+    @extend .animated.faster;
+    @extend .ssSlideInDown;
+}
+
+.slide-in-down-leave-active {
+    @extend .animated.faster;
+    @extend .ssSlideOutUp;
+}
+
+.slide-in-left-enter-active {
+    @extend .animated.faster;
+    @extend .ssSlideInLeft;
+}
+
+.slide-in-left-leave-active {
+    @extend .animated.faster;
+    @extend .ssSlideOutLeft;
+}
+
+.slide-in-right-enter-active {
+    @extend .animated.faster;
+    @extend .ssSlideInRight;
+}
+
+.slide-in-right-leave-active {
+    @extend .animated.faster;
+    @extend .ssSlideOutRight;
+}
